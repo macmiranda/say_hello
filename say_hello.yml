@@ -1,0 +1,7 @@
+
+- name: Say Hello to user
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello, {person_name}!"
